@@ -123,14 +123,12 @@ module.exports = {
   pathPrefix: "/gatsby-advanced-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "A GatsbyJS stater with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Advanced User", // Username to display in the author segment.
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
@@ -139,21 +137,16 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      url: "#",
       iconClassName: "fa fa-github"
     },
     {
-      label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
-    },
-    {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "#",
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2017. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2018. Lee Sargent", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };
